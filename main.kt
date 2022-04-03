@@ -29,9 +29,12 @@ fun main() {
     var msg1 = "こんにちは。¥n私はKotlinを学んでいます"
     var msg2 = """こんにちは。
 私はKotlinを学んでいます"""
+    var msg3 = """こんにちは。
+               |私はKotlinを学んでいます""".trimMargin()
 
     println(msg1)
     println(msg2)
+    println(msg3)
 
 
 }
