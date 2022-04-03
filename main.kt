@@ -24,4 +24,14 @@ fun main() {
     println(d::class)
     println(e::class)
 
+    println("文字列リテラル")
+
+    var msg1 = "こんにちは。¥n私はKotlinを学んでいます"
+    var msg2 = """こんにちは。
+私はKotlinを学んでいます"""
+
+    println(msg1)
+    println(msg2)
+
+
 }
