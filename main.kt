@@ -43,5 +43,12 @@ fun main() {
     println("配列dataの先頭の値は、${data[0]}で要素数は${data.size}です")
     println("1＋1は、${1+1}です。")
 
+    println("null許容型")
+    
+    var foo: String? = "foo"
+    foo = null
+
+    println(foo)
+
 
 }
