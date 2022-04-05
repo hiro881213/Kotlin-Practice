@@ -50,5 +50,14 @@ fun main() {
 
     println(foo)
 
+    var a2: Int  = 10000
+    var b2: Int  = a2
+    var c2: Int? = a2
+
+    println("Boxing")
+    println(a2 == b2)
+    println(a2 === b2)
+    println(a2 == c2)
+    println(a2 === c2)
 
 }
