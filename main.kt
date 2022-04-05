@@ -36,5 +36,12 @@ fun main() {
     println(msg2)
     println(msg3)
 
+    println("文字列テンプレート")
+
+
+    var data = arrayOf(1,2,3)
+    println("配列dataの先頭の値は、${data[0]}で要素数は${data.size}です")
+    println("1＋1は、${1+1}です。")
+
 
 }
