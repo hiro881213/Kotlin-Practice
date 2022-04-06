@@ -60,4 +60,12 @@ fun main() {
     println(a2 == c2)
     println(a2 === c2)
 
+    println("セーフコール演算子")
+
+    var a3:String? = "foo"
+    println(a3?.length)
+
+    var b3: String? = null
+    println(b3?.length ?: 0)
+
 }
