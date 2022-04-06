@@ -76,4 +76,8 @@ fun main() {
     var a4: Float  = 1.2f
     var b4: Double = 10.0
 
+    println("toデータ型メソッド")
+    var a5 = 10
+    var b5:Long = a5.toLong()
+
 }
