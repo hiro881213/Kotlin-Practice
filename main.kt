@@ -68,4 +68,8 @@ fun main() {
     var b3: String? = null
     println(b3?.length ?: 0)
 
+    var c3: String? = "foo"
+    println(c3!!.length)
+
+
 }
