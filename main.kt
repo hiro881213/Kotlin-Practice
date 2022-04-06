@@ -71,5 +71,9 @@ fun main() {
     var c3: String? = "foo"
     println(c3!!.length)
 
+    println("型変換")
+
+    var a4: Float  = 1.2f
+    var b4: Double = 10.0
 
 }
