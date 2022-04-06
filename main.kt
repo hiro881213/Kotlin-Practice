@@ -1,7 +1,7 @@
 /**
- * 
+ *
  * Main関数
- * 
+ *
  */
 fun main() {
     println("Hello World!")
@@ -30,7 +30,7 @@ fun main() {
     var msg2 = """こんにちは。
 私はKotlinを学んでいます"""
     var msg3 = """こんにちは。
-               |私はKotlinを学んでいます""".trimMargin()
+                |私はKotlinを学んでいます""".trimMargin()
 
     println(msg1)
     println(msg2)
@@ -44,7 +44,7 @@ fun main() {
     println("1＋1は、${1+1}です。")
 
     println("null許容型")
-    
+
     var foo: String? = "foo"
     foo = null
 
