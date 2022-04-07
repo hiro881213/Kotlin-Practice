@@ -80,4 +80,11 @@ fun main() {
     var a5 = 10
     var b5:Long = a5.toLong()
 
+    println("配列の定義")
+
+    // 配列を定義する
+    var arrA1 = arrayOf(1, 2, 3)    // [1, 2, 3]
+    println("[${arrA1[0]} ${arrA1[1]} ${arrA1[2]}]")
+
+
 }
