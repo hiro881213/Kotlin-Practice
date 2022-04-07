@@ -96,6 +96,9 @@ fun main() {
     var arrA3: Array<String?> = arrayOfNulls(3)
     println("[${arrA3[0]} ${arrA3[1]} ${arrA3[2]}]")
 
+    println("ラムダ式と配列作成")
+    var arrA4 = Array(3, {i -> i*2})
+    println("[${arrA4[0]} ${arrA4[1]} ${arrA4[2]}]")
 
 
 }
