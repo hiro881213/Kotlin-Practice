@@ -86,5 +86,11 @@ fun main() {
     var arrA1 = arrayOf(1, 2, 3)    // [1, 2, 3]
     println("[${arrA1[0]} ${arrA1[1]} ${arrA1[2]}]")
 
+    println("配列の型指定")
+
+    // 配列の中身をInt型に指定
+    var arrA2 = intArrayOf(4, 5, 6) // [4, 5, 6]
+    println("[${arrA2[0]} ${arrA2[1]} ${arrA2[2]}]")
+
 
 }
