@@ -92,5 +92,10 @@ fun main() {
     var arrA2 = intArrayOf(4, 5, 6) // [4, 5, 6]
     println("[${arrA2[0]} ${arrA2[1]} ${arrA2[2]}]")
 
+    println("空の配列作成")
+    var arrA3: Array<String?> = arrayOfNulls(3)
+    println("[${arrA3[0]} ${arrA3[1]} ${arrA3[2]}]")
+
+
 
 }
